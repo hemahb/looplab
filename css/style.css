@@ -1,0 +1,61 @@
+body {
+  background: #333;
+  color: white;
+}
+
+.navbar {
+  border-bottom: rgba(1, 154, 243, 0.781) 3px solid;
+}
+
+.my-icons {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(20, 155, 245);
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+  height: 50%;
+}
+
+#home-section {
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-ovrlay {
+  background-color: rgba(17, 17, 17, 0.733);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+}
+
+.home-inner {
+  padding-top: 150px;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.explore-icons {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(29, 30, 31);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.create-icons {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(7, 6, 6);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+}
